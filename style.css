@@ -1,8 +1,10 @@
 body {
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
 }
+
 .container {
     width: 400px;
     padding: 20px;
@@ -64,4 +66,77 @@ p {
     margin: 0;
     font-size: 1.4rem;
     color: #009966;
+}
+
+/* segunda pagina */
+
+.dashboard {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.atalhos {
+    display: flex;
+    gap: 15px;
+}
+.card-pequeno {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    margin-top: 15px;
+}
+.boas-vindas {
+    background-color: #0f9c66;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.boas-vindas p {
+    color: white;
+}
+.card h3 {
+    margin-top: 0;
+    color: #009966;
+}
+
+.card p {
+    color: #666;
+}
+.card-samu {
+    background-color: #E74C3C;
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 15px;
+}
+.card-samu p {
+    color: white;
+}
+
+/* para dar aquele efeitinho de que vai clicar */
+
+.card-pequeno,
+.card-samu,
+.card {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card:hover,
+.card-pequeno:hover,
+.card-samu:hover {
+    transform: translateY(-3px);
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
