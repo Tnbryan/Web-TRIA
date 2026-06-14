@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    width: 400px;
+    padding: 20px;
+    margin: 0 auto;
+}
+.cabecalho {
+    background-color: #eef3ff;
+    padding: 2px 20px;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+/* o espaçamento */
+.campo {
+    margin-bottom: 20px;
+}
+.campo input {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    height: 45px;
+    border: 2px solid #2e8b57;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.btn-principal {
+    background-color: #009966;
+    color: white;
+    border-radius: 15px;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+}
+.btn-voltar {
+    background-color: #ffffff;
+    color: #009966;
+    border-radius: 15px;
+    border-color: #009966;
+    width: 100%;
+    padding: 8px;
+}
+.aviso-msg {
+
+}
+
+/* configurações de tamanho de texto e tals */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 0.95rem;
+    color: #666;
+}
+.cabecalho h2 {
+    margin: 0;
+    font-size: 1.4rem;
+    color: #009966;
+}
