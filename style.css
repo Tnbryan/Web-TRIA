@@ -1,0 +1,142 @@
+body {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 400px;
+    padding: 20px;
+    margin: 0 auto;
+}
+.cabecalho {
+    background-color: #eef3ff;
+    padding: 2px 20px;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+/* o espaçamento */
+.campo {
+    margin-bottom: 20px;
+}
+.campo input {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    height: 45px;
+    border: 2px solid #2e8b57;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.btn-principal {
+    background-color: #009966;
+    color: white;
+    border-radius: 15px;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+}
+.btn-voltar {
+    background-color: #ffffff;
+    color: #009966;
+    border-radius: 15px;
+    border-color: #009966;
+    width: 100%;
+    padding: 8px;
+}
+.aviso-msg {
+
+}
+
+/* configurações de tamanho de texto e tals */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 0.95rem;
+    color: #666;
+}
+.cabecalho h2 {
+    margin: 0;
+    font-size: 1.4rem;
+    color: #009966;
+}
+
+/* segunda pagina */
+
+.dashboard {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.atalhos {
+    display: flex;
+    gap: 15px;
+}
+.card-pequeno {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    margin-top: 15px;
+}
+.boas-vindas {
+    background-color: #0f9c66;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.boas-vindas p {
+    color: white;
+}
+.card h3 {
+    margin-top: 0;
+    color: #009966;
+}
+
+.card p {
+    color: #666;
+}
+.card-samu {
+    background-color: #E74C3C;
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 15px;
+}
+.card-samu p {
+    color: white;
+}
+
+/* para dar aquele efeitinho de que vai clicar */
+
+.card-pequeno,
+.card-samu,
+.card {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card:hover,
+.card-pequeno:hover,
+.card-samu:hover {
+    transform: translateY(-3px);
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
